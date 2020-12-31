@@ -2,3 +2,11 @@
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    header .social-links ul li.email {
+        display: none;
+    }
+  }
